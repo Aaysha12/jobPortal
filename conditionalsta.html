@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Nestedif:-
+      /*  let job_role = prompt("enter job role of employee-developer or assistant developer");
+        let salary = parseInt(prompt("enter salary of employee"));
+        let bonus = 0;
+        if (job_role=="developer"){
+            if (salary>2000000){
+                bonus=(salary*5)/100;
+                document.write('job role= ${job_role} salary=${salary} and bonus=${bonus}S');
+            }
+            else{
+                bonus=(salary*3)/100;
+                document.write('job role= ${job_role} salary=${salary} and bonus=${bonus}S');
+            }
+                    }           
+     else{
+                bonus=(salary*2)/100;
+                document.write('job role= ${job_role} salary=${salary} and bonus=${bonus}S');
+            }*/
+
+            // elseif:-
+
+            let units=prompt("enter consumed units by customer");
+            let bill=0;
+
+            if(units > 600){
+                bill=units * 6.5 +100;
+            }
+            else if (units > 400){
+                bill=units * 5.5;
+            }
+            else if (units > 200){
+                bill=units * 4.2;
+            }
+            else {
+                bill=units * 2.2;
+            }
+            document.write('consumed units by customer =${units} and payable bill =${bill}');
+        
+    </script>
+</body>
+</html>

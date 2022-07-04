@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <!-- <body onselect="myfun()"> -->
+        <!-- <body onunload="fun()"> -->
+            <body onbeforeunload="fun()"></body>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta facere pariatur dolore ex architecto, tempora placeat magni natus fugiat ullam, repudiandae culpa ipsum dolorum eos dignissimos voluptates eveniet accusantium. Quae!</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo maxime dolor eligendi atque laborum tempore hic voluptatem ullam, voluptate pariatur aperiam ipsum praesentium animi nihil ad officiis eveniet fugit repellendus!</p>
+        <input type="text" value="hello..." onselect="myfun()">
+        <script>
+            function myfun(){
+              alert("you selected some text");
+            }
+            function fun(){
+                console.log('before unload event');
+                alert("thank you for visiting us");
+            }
+        </script>
+    </body>
+</html>
